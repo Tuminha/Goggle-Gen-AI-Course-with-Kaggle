@@ -1,0 +1,142 @@
+{
+  "generated_at_utc": "2025-10-04T18:19:50.894654Z",
+  "project_id": "periospot-mvp",
+  "region": "us-central1",
+  "vertex_models": [
+    {
+      "provider": "vertex-ai",
+      "model_id": "gemini-1.5-pro-002",
+      "display_name": "Gemini 1.5 Pro (Adapter)",
+      "ai_studio_model": "models/gemini-1.5-pro",
+      "inference_support": {
+        "status": "supported",
+        "detail": "GA inference on Vertex AI.",
+        "extra": {}
+      },
+      "inference_vertex": {
+        "status": "api_error",
+        "detail": "NotFound: 404 Publisher Model `projects/periospot-mvp/locations/us-central1/publishers/google/models/gemini-1.5-pro-002` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
+        "extra": {
+          "diagnosis": "Model identifier unavailable in this region or project; confirm spelling and allow-list."
+        }
+      },
+      "inference_aistudio": null,
+      "fine_tune_support": {
+        "status": "supported",
+        "detail": "Adapter-based SFT (preview) in us-central1. Allow-list required.",
+        "extra": {}
+      },
+      "fine_tune_result": {
+        "status": "skipped",
+        "detail": "Fine-tune skipped. Use --submit-fine-tune to launch a job.",
+        "extra": {}
+      }
+    },
+    {
+      "provider": "vertex-ai",
+      "model_id": "gemini-1.5-flash-002",
+      "display_name": "Gemini 1.5 Flash (Adapter)",
+      "ai_studio_model": "models/gemini-1.5-flash",
+      "inference_support": {
+        "status": "supported",
+        "detail": "GA inference on Vertex AI.",
+        "extra": {}
+      },
+      "inference_vertex": {
+        "status": "api_error",
+        "detail": "NotFound: 404 Publisher Model `projects/periospot-mvp/locations/us-central1/publishers/google/models/gemini-1.5-flash-002` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
+        "extra": {
+          "diagnosis": "Model identifier unavailable in this region or project; confirm spelling and allow-list."
+        }
+      },
+      "inference_aistudio": null,
+      "fine_tune_support": {
+        "status": "supported",
+        "detail": "Adapter-based SFT (preview) in us-central1. Allow-list required.",
+        "extra": {}
+      },
+      "fine_tune_result": {
+        "status": "skipped",
+        "detail": "Fine-tune skipped. Use --submit-fine-tune to launch a job.",
+        "extra": {}
+      }
+    },
+    {
+      "provider": "vertex-ai",
+      "model_id": "gemini-1.0-pro-002",
+      "display_name": "Gemini 1.0 Pro",
+      "ai_studio_model": "models/gemini-pro",
+      "inference_support": {
+        "status": "supported",
+        "detail": "Legacy inference. Fine-tuning no longer available.",
+        "extra": {}
+      },
+      "inference_vertex": {
+        "status": "api_error",
+        "detail": "NotFound: 404 Publisher Model `projects/periospot-mvp/locations/us-central1/publishers/google/models/gemini-1.0-pro-002` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
+        "extra": {
+          "diagnosis": "Model identifier unavailable in this region or project; confirm spelling and allow-list."
+        }
+      },
+      "inference_aistudio": null,
+      "fine_tune_support": {
+        "status": "unsupported",
+        "detail": "SFT retired as of Feb 2025; expect INVALID_ARGUMENT.",
+        "extra": {}
+      },
+      "fine_tune_result": null
+    },
+    {
+      "provider": "vertex-ai",
+      "model_id": "gemini-2.0-flash",
+      "display_name": "Gemini 2.0 Flash",
+      "ai_studio_model": "models/gemini-2.0-flash-exp",
+      "inference_support": {
+        "status": "supported",
+        "detail": "GA inference only; no adapter tuning.",
+        "extra": {}
+      },
+      "inference_vertex": {
+        "status": "success",
+        "detail": "A large language model (LLM) is a type of artificial intelligence (AI) model that is trained on massive amounts of text data to understand and generate human-like text. They are designed to predict the next word in a sequence, given the preceding words.  Think of them as extre...",
+        "extra": {}
+      },
+      "inference_aistudio": null,
+      "fine_tune_support": {
+        "status": "unsupported",
+        "detail": "Fine-tuning unavailable for Gemini 2.x as of Feb 2025.",
+        "extra": {}
+      },
+      "fine_tune_result": null
+    },
+    {
+      "provider": "vertex-ai",
+      "model_id": "text-bison@002",
+      "display_name": "Text Bison 002 (Legacy)",
+      "ai_studio_model": null,
+      "inference_support": {
+        "status": "supported",
+        "detail": "Legacy PaLM-based text model.",
+        "extra": {}
+      },
+      "inference_vertex": {
+        "status": "api_error",
+        "detail": "NotFound: 404 Publisher Model `projects/periospot-mvp/locations/us-central1/publishers/google/models/text-bison@002` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
+        "extra": {
+          "diagnosis": "Model identifier unavailable in this region or project; confirm spelling and allow-list."
+        }
+      },
+      "inference_aistudio": null,
+      "fine_tune_support": {
+        "status": "supported",
+        "detail": "Classic SFT path; slower but still supported.",
+        "extra": {}
+      },
+      "fine_tune_result": {
+        "status": "skipped",
+        "detail": "Fine-tune skipped. Use --submit-fine-tune to launch a job.",
+        "extra": {}
+      }
+    }
+  ]
+}

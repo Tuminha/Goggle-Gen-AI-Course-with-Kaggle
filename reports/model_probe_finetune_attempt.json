@@ -1,0 +1,108 @@
+{
+  "generated_at_utc": "2025-10-05T05:24:59.575670Z",
+  "project_id": "periospot-mvp",
+  "region": "us-central1",
+  "vertex_models": [
+    {
+      "provider": "vertex-ai",
+      "model_id": "gemini-2.5-pro",
+      "display_name": null,
+      "ai_studio_model": null,
+      "inference_support": {
+        "status": "unknown",
+        "detail": "No catalog information.",
+        "extra": {}
+      },
+      "inference_vertex": {
+        "status": "success",
+        "detail": "Of course! Here is a detailed explanation of what a large language model is, broken down for clarity.\n\n### The Short and Simple Analogy\n\nImagine a version of your phone's autocomplete that has read a massive chunk of the internet, thousands of books, and all of Wikipedia. It's...",
+        "extra": {}
+      },
+      "inference_aistudio": null,
+      "fine_tune_support": {
+        "status": "unknown",
+        "detail": "Fine-tuning status not documented.",
+        "extra": {}
+      },
+      "fine_tune_result": {
+        "status": "job_submitted",
+        "detail": "Tuning job started: projects/1020593801304/locations/us-central1/tuningJobs/2864563914497064960",
+        "extra": {
+          "tuned_model_name": "<pending>",
+          "tuned_model_endpoint": "<pending>"
+        }
+      }
+    },
+    {
+      "provider": "vertex-ai",
+      "model_id": "gemini-2.5-flash",
+      "display_name": null,
+      "ai_studio_model": null,
+      "inference_support": {
+        "status": "unknown",
+        "detail": "No catalog information.",
+        "extra": {}
+      },
+      "inference_vertex": {
+        "status": "success",
+        "detail": "A **Large Language Model (LLM)** is a type of artificial intelligence (AI) program designed to understand, generate, and process human language. The \"large\" in its name refers to two primary aspects:\n\n1.  **Vast Amount of Training Data:** LLMs are trained on enormous datasets ...",
+        "extra": {}
+      },
+      "inference_aistudio": null,
+      "fine_tune_support": {
+        "status": "unknown",
+        "detail": "Fine-tuning status not documented.",
+        "extra": {}
+      },
+      "fine_tune_result": null
+    },
+    {
+      "provider": "vertex-ai",
+      "model_id": "gemini-1.5-pro-002",
+      "display_name": "Gemini 1.5 Pro (Adapter)",
+      "ai_studio_model": "models/gemini-1.5-pro",
+      "inference_support": {
+        "status": "supported",
+        "detail": "GA inference on Vertex AI.",
+        "extra": {}
+      },
+      "inference_vertex": {
+        "status": "api_error",
+        "detail": "NotFound: 404 Publisher Model `projects/periospot-mvp/locations/us-central1/publishers/google/models/gemini-1.5-pro-002` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
+        "extra": {
+          "diagnosis": "Model identifier unavailable in this region or project; confirm spelling and allow-list."
+        }
+      },
+      "inference_aistudio": null,
+      "fine_tune_support": {
+        "status": "supported",
+        "detail": "Adapter-based SFT (preview) in us-central1. Allow-list required.",
+        "extra": {}
+      },
+      "fine_tune_result": null
+    },
+    {
+      "provider": "vertex-ai",
+      "model_id": "gemini-2.0-flash",
+      "display_name": "Gemini 2.0 Flash",
+      "ai_studio_model": "models/gemini-2.0-flash-exp",
+      "inference_support": {
+        "status": "supported",
+        "detail": "GA inference only; no adapter tuning.",
+        "extra": {}
+      },
+      "inference_vertex": {
+        "status": "success",
+        "detail": "A large language model (LLM) is a type of artificial intelligence (AI) model that is trained on a massive dataset of text and code. This training allows them to understand, summarize, generate, and predict new text based on the patterns they've learned. They are considered \"la...",
+        "extra": {}
+      },
+      "inference_aistudio": null,
+      "fine_tune_support": {
+        "status": "unsupported",
+        "detail": "Fine-tuning unavailable for Gemini 2.x as of Feb 2025.",
+        "extra": {}
+      },
+      "fine_tune_result": null
+    }
+  ]
+}
