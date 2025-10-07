@@ -82,7 +82,7 @@
 - **Advanced Techniques**: Zero-shot, few-shot, Chain of Thought, Self-Consistency, Tree of Thought
 - **Structured Output**: Code generation, prompt improvement, systematic evaluation
 - **Real-world Applications**: Dental clinic automation, compliance auditing, patient communication
-- **Working Notebook**: `notebooks/02_whitepapers_exercises.ipynb` with all techniques implemented
+- **Working Notebook**: `notebooks/02_whitepapers_exercises_prompt_engineering.ipynb` with all techniques implemented
 
 ---
 
@@ -120,15 +120,16 @@ pip install -r requirements.txt
 ```
 
 ### Entry Points
-- **Day 1**: `notebooks/02_whitepapers_exercises.ipynb` ✅ **PROMPT ENGINEERING**
-- **Day 2**: `notebooks/day2_embeddings_rag.ipynb`
+- **Day 1**: `notebooks/02_whitepapers_exercises_prompt_engineering.ipynb` ✅ **PROMPT ENGINEERING**
+- **Day 2**: `notebooks/03_whitepapers_exercises_embeddings.ipynb` ✅ **EMBEDDINGS & VECTOR STORES**
 - **Day 3**: `notebooks/day3_ai_agents.ipynb`
-- **Day 4**: `notebooks/01_whitepapers_exercises.ipynb` ✅ **WORKING FINE-TUNING**
+- **Day 4**: `notebooks/01_whitepapers_exercises_fine_tuning.ipynb` ✅ **WORKING FINE-TUNING**
 - **Day 5**: `notebooks/day5_mlops.ipynb`
 
 ### 🎯 **Working Implementations**
-- **Fine-Tuning**: `notebooks/01_whitepapers_exercises.ipynb` - Complete Gemini 2.5 fine-tuning pipeline
-- **Prompt Engineering**: `notebooks/02_whitepapers_exercises.ipynb` - Advanced prompting techniques
+- **Fine-Tuning**: `notebooks/01_whitepapers_exercises_fine_tuning.ipynb` - Complete Gemini 2.5 fine-tuning pipeline
+- **Prompt Engineering**: `notebooks/02_whitepapers_exercises_prompt_engineering.ipynb` - Advanced prompting techniques
+- **Embeddings & Vector Stores**: `notebooks/03_whitepapers_exercises_embeddings.ipynb` - RAG systems and vector databases
 - **Complete Solution**: `data/FINE_TUNING_SOLUTION.md`
 - **Process Flowchart**: `flowcharts/fine_tuning_process_flowchart.md`
 - **Status**: ✅ **Production-ready implementations**
